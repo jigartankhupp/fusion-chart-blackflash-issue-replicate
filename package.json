@@ -18,7 +18,7 @@
     "moment": "^2.24.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-fusioncharts": "^4.0.0",
+    "react-native-fusioncharts": "^4.1.0",
     "react-native-webview": "^5.12.1"
   },
   "devDependencies": {

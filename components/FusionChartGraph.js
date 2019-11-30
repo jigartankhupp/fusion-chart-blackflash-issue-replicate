@@ -26,8 +26,14 @@ export class FusionChartGraph extends Component {
 
 		this.state = {
 			events: {
-				rendercomplete: (e, a) => {
-					console.log('renderComplete');
+				loaded: (e, a) => {
+					console.log('loaded');
+				},
+				initialized: (e, a) => {
+					console.log('initialized');
+				},
+				rendered: () => {
+					console.log('rendered');
 				}
 			}
 		}
@@ -123,6 +129,7 @@ export class FusionChartGraph extends Component {
 				// animation: 0,
 				chartLeftMargin: 10,
 				xaxislinethickness: 2,
+				canvasBaseDepth: 0
 			},
 			"categories": [
 				{
