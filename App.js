@@ -46,7 +46,7 @@ class App extends React.Component {
 			timeout: 15000,
 			headers: {'Content-Type': 'application/json', 'secret-key': '$2b$10$05RylxikQV3qbyCElMziDehs86GqSl8MweIJ.EgOgKnZSE9ZpDTNO'}
 		});
-		instance.get('/b/5de0d01f264e8f39a7be16b9')
+		instance.get('/b/5de4941cb77d632ccda60812')
 		.then((response) => {
 			// handle success
 			const graphsData = response.data.graphs;
